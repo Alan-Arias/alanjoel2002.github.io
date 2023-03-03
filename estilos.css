@@ -41,8 +41,8 @@ nav {
   }
   
   .profile img {
-    width: 50px;
-    height: 50px;
+    width: 2.3cm;
+    height: 2.3cm;
     border-radius: 50%;
     margin-right: 10px;
   }
@@ -70,8 +70,11 @@ nav {
     }
     .profile img{
       margin-top: 20px;
-      height: 2cm;
-      width: 2cm;
+      height: 2.3cm;
+      width: 2.3cm;
+    }
+    .bnt-sig-ant a{
+      width: 100%;
     }
   }
 
@@ -114,4 +117,32 @@ nav {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #6c49ec;
+}
+
+
+
+.bnt-sig-ant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #31217a;
+  border-radius: 10px;
+  margin-top: 1cm;
+}
+.bnt-sig-ant a {
+  display: block;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+}
+.bnt-sig-ant a:hover{
+  color: #df5252;
+  text-decoration: underline;
 }
