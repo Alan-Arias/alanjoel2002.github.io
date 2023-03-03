@@ -1,0 +1,87 @@
+*{
+    margin: 0.5px 0.2px;
+  }
+  
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #31217a;
+      color: #fff;
+      padding: 20px;
+      border-radius: 7px;
+    }
+    
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      margin-left: 20px;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 0.8cm;
+      font-family: sans-serif;
+      margin: 16px;
+    }
+    nav ul li a:hover{
+      color: red;
+      font-size: 0.8cm;
+      text-decoration: solid;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+    }
+    
+    .profile img {
+      width: 2.3cm;
+      height: 2.3cm;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    
+    .logo a img {
+      width: 60px;
+      height: 60px;
+    }
+    .logo p{
+      display: inline;
+      font-size: 1cm;
+    }
+    
+    @media screen and (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+    
+      ul {
+        margin-top: 20px;
+      }
+    }
+    /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #110253;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6c49ec;
+  }
